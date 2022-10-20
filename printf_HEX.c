@@ -1,18 +1,11 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-fnnnf
-=======
-#include main.h
->>>>>>> dc9732e9dcaabd265533a3c5ea9fb7684548b62c
-=======
 #include "main.h"
 
 /**
- * printf_hex - prints an hexgecimal number.
+ * printf_HEX - prints an hexgecimal number.
  * @val: arguments.
  * Return: counter.
  */
-int printf_hex(va_list val)
+int printf_HEX(va_list val)
 {
 	int i;
 	int *array;
@@ -36,10 +29,9 @@ int printf_hex(va_list val)
 	for (i = counter - 1; i >= 0; i--)
 	{
 		if (array[i] > 9)
-			array[i] = array[i] + 39;
+			array[i] = array[i] + 7;
 		_putchar(array[i] + '0');
 	}
 	free(array);
 	return (counter);
 }
->>>>>>> 80e6a8b049b05cd229d3bfee5b05e7b67aae2b49
