@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "main.h"
 
 /**
@@ -34,3 +35,10 @@ int printf_hex_aux(unsigned long int num)
 	free(array);
 	return (counter);
 }
+=======
+<<<<<<< HEAD
+gvv
+=======
+#include main.h
+>>>>>>> dc9732e9dcaabd265533a3c5ea9fb7684548b62c
+>>>>>>> 32ef96c2bc9d1e2bcb283f4d49e139478109b0d3
