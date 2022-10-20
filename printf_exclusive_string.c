@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-fhfxmn
-=======
-#include main.h
->>>>>>> dc9732e9dcaabd265533a3c5ea9fb7684548b62c
-=======
 #include "main.h"
+
 /**
  * printf_exclusive_string - print exclusuives string.
  * @val: argumen t.
@@ -44,4 +38,3 @@ int printf_exclusive_string(va_list val)
 	}
 	return (len);
 }
->>>>>>> 80e6a8b049b05cd229d3bfee5b05e7b67aae2b49

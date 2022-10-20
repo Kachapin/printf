@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-fnnnf
-=======
-#include main.h
->>>>>>> dc9732e9dcaabd265533a3c5ea9fb7684548b62c
-=======
 #include "main.h"
 
 /**
@@ -42,4 +35,3 @@ int printf_hex(va_list val)
 	free(array);
 	return (counter);
 }
->>>>>>> 80e6a8b049b05cd229d3bfee5b05e7b67aae2b49
